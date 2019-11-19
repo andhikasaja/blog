@@ -1,0 +1,268 @@
+# Page settings
+
+baseURL = "andhikasaja.github.io"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Andhika"
+    description = "Andhika's Resume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Muhamad Andhika Prasetya"
+        tagline = "Automation Engineering"
+        avatar = "avatar1.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Surabaya"
+
+        [[params.contact.list]]
+        style = "fas"
+        icon = "fa-phone-square"
+        url = "tel:0895631421101"
+        text = "089 563 142 1101"
+        [[params.contact.list]]
+        style = "fas"
+        icon = "fa-envelope-square"
+        url = "mailto:siewom007@gmail.com"
+        text = "siewom007@gmail.com"
+        [[params.contact.list]]
+        style = "fas"
+        icon = "fa-globe"
+        url = "http://andhikasaja.my.id"
+        text = "andhikasaja.my.id"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Networking/Server"
+        [[params.skills.list]]
+        title = "Electrical/Automation/IoT"
+       
+    
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Networking/Server/IoT"
+        [[params.skills.list.items]]
+        details = "Electrical/IoT/Automation System"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "S.Tr in Automation Engineering"
+        university = "Institut Teknologi Sepuluh Nopember"
+        dates = "2018 - 2022"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "3D Conquest by CIMB Niaga Indonesia"
+        body = "Finalist"
+        date = "2018"
+        [[params.awards.list]]
+        name = "Capture the Flag by Narotama University"
+        body = "2nd Place"
+        date = "2018"
+        [[params.awards.list]]
+        name = "Capture the Flag by Narotama University"
+        body = "3rd Place"
+        date = "2017"
+        [[params.awards.list]]
+        name = "Cyber Defence Competition by Surabaya City Goverment"
+        body = "6th Place"
+        date = "2016"
+
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Indonesia"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Java"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Active"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Playing RPG Games"
+        [[params.interests.list]]
+        name = "IoT Entushiast"
+        [[params.interests.list]]
+        name = "Linux Enthusiast"
+        [[params.interests.list]]
+        name = "FLOSS Enthusiast"
+
+
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text ="Student of the Department of Electrical Engineering Automation, ITS. Interested in technological developments, specifically IoT, Network, Server"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Internship at Directorate of Information Technology and System Development "
+        dates = "2016"
+        company = "Directorate of Information Technology and System Development"
+        details = "Internship at ITS Directorate of Information Technology and System Development on Network Operation Center (NOC)."
+   
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Computer Network Designer"
+        meta = "CU Mandiri"
+        tagline = "Freelancers build a CU Mandiri regional bank computer network"
+
+        [[params.projects.list]]
+        title = "openSUSE Asia Summit 2019 as Speaker"
+        meta = "Open Source"
+        tagline = "As a speaker at openSUSE Asia Summit 2019  entitled Minimizing “international internet traffic usage from internet of things devices using local server on open suse with blynk."
+        [[params.projects.list]]
+        title = "Crew of Indonesia Open Infrastucture Day 2019"
+        meta = "Open Source"
+        tagline = "contribute to developing the opensource community in Indonesia by helping Indonesia open infrastructure day 2019"
+	[[params.projects.list]]
+        title = "Admin of Surabaya Linux User Group"
+        meta = "Open Source"
+        tagline = "Linux Activist and Enthusiast"
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Networking, IoT, Server, Automation Engineering"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        style = "fab"
+        icon = "fa-github-square"
+        url = "//github.com/andhikasaja"
+        title = "andhikasaja"
+        [[params.social.list]]
+        style = "fab"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/andhikasaja"
+        title = "andhikasaja"
+
+
+
+
+
